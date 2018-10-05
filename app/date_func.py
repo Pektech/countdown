@@ -1,16 +1,13 @@
 from datetime import date
-<<<<<<< HEAD:app/date_func.py
 from app import holidays
 from app.holidays import holidays
 from random import choice
-from app.quotes import XMAS_QUOTE
-=======
+from app.quotes import *
 from random import choice
 
-import holidays
-from holidays import holidays
-from quotes import *
->>>>>>> date_func:date_func.py
+
+
+
 
 
 def countdown(holiday):
