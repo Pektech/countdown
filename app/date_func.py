@@ -1,8 +1,8 @@
 from datetime import date
-import holidays
-from holidays import holidays
+from app import holidays
+from app.holidays import holidays
 from random import choice
-from quotes import XMAS_QUOTE
+from app.quotes import XMAS_QUOTE
 
 
 def countdown(holiday):
