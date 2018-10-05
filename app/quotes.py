@@ -1,4 +1,4 @@
-XMAS_QUOTE = ["Love the giver more than the gift",
+CHRISTMASS_QUOTE = ["Love the giver more than the gift",
               "Christmas is like candy; it slowly melts in your mouth "
               "sweetening every taste bud, "
               "making you wish it could last forever.",
@@ -41,5 +41,5 @@ WOLFENOOT_QUOTE = ["Listen to them — the children of the night. What music the
                    "when the Spirit of the Wolf brings and hides small gifts "
                    "around the house for everyone.",]
 
-HOLIDAY_QUOTES = {'xmas': XMAS_QUOTE, 'halloween': HALLOWEEN_QUOTE,
+HOLIDAY_QUOTES = {'christmass': CHRISTMASS_QUOTE, 'halloween': HALLOWEEN_QUOTE,
 'wolfenoot':WOLFENOOT_QUOTE}

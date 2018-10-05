@@ -11,6 +11,7 @@ from random import choice
 
 
 def countdown(holiday):
+    holiday = holiday.lower()
     check_holiday = check_holiday_exists(holiday)
     if check_holiday is False:
         return ("I dont know that holiday")
@@ -21,7 +22,7 @@ def countdown(holiday):
         holidate = holidate.replace(year=today.year + 1)
     days_to_holidate = abs(holidate - today).days
     random_quote = get_random_quote(holiday)
-    return (f'{days_to_holidate} till {holiday}. {random_quote}')
+    return (f'{days_to_holidate} days till {holiday}. {random_quote}')
 
 
 def get_random_quote(holiday):
