@@ -4,6 +4,7 @@ from app.holidays import holidays
 from random import choice
 from app.quotes import *
 from random import choice
+from flask_ask import question
 
 
 
@@ -11,18 +12,19 @@ from random import choice
 
 
 def countdown(holiday):
-    holiday = holiday.lower()
-    check_holiday = check_holiday_exists(holiday)
-    if check_holiday is False:
-        return ("I dont know that holiday")
+
     today = date.today()
     holidate = date(today.year, holidays[holiday][0], holidays[holiday][1])
 
     if holidate < today:
         holidate = holidate.replace(year=today.year + 1)
     days_to_holidate = abs(holidate - today).days
-    random_quote = get_random_quote(holiday)
-    return (f'{days_to_holidate} days till {holiday}. {random_quote}')
+    return days_to_holidate
+    # random_quote = get_random_quote(holiday)
+    # if days_to_holidate == 0:
+    #     return (f' Today is {holiday} day.')
+    # else:
+    #     return (f'{days_to_holidate} days till {holiday}. {random_quote}')
 
 
 def get_random_quote(holiday):
