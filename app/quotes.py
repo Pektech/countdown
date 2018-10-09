@@ -45,8 +45,19 @@ WOLFENOOT_QUOTE = [
     "around the house for everyone.",
 ]
 
+THANKSGIVING_QUOTE = ["The thankful receiver bears a plentiful harvest.",
+"Thanksgiving is one of my favorite days of the year because it"
+" reminds us to give thanks and to count our blessings. "
+"Suddenly, so many things become so little when we realize how blessed and lucky we are.",
+                      "I am grateful for what I am and have. My thanksgiving is perpetual.",
+     "Thanksgiving Day is a good day to recommit our energies to giving thanks and just giving.",
+                      "Thanksgiving is a time of togetherness and gratitude",
+                       "An optimist is a person who starts a new diet on Thanksgiving Day."]
+
+
 HOLIDAY_QUOTES = {
     "christmass": CHRISTMASS_QUOTE,
     "halloween": HALLOWEEN_QUOTE,
     "wolfenoot": WOLFENOOT_QUOTE,
+    "thanksgiving" : THANKSGIVING_QUOTE,
 }
